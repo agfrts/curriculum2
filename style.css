@@ -1,0 +1,60 @@
+*{
+	font-family: Century Gothic;
+	background-color: #4a4545;
+	color: #b5b5b5;
+}
+#header{
+	margin-left: 0%;
+	margin-right: 0%;
+	text-align:center;
+}
+#dados{
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+	font-size: 14px;
+}
+#corpo{
+	margin-left: 5%;
+	text-align: justify;
+	font-size: 14px;
+}
+#curiosidades{
+	margin-left:15%;
+	margin-right: 15%;
+	text-align: justify;
+	font-size: 14px;
+}
+#foto{
+	border-radius: 5%;
+	width: 200px;
+	height: 210px;
+}
+
+iframe{
+	width: 320px;
+	height: 190px;
+}
+fieldset{
+	size: 5px; 
+	border: 2px dashed #333333;
+}
+h1{
+	font-size: 32px;
+	color: #212121	;
+}
+h2{
+	font-size: 20px;
+	color: #212121;
+}
+h3{
+	font-size: 18px;
+	color: #212121;
+}
+h4{
+	color: #212121;
+	font-size: 15px;
+}
+dd{
+	font-size: 14px;
+}
