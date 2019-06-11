@@ -1,6 +1,5 @@
 *{
 	font-family: Century Gothic;
-	background-color: #4a4545;
 	color: #b5b5b5;
 }
 #header{
@@ -37,22 +36,22 @@ iframe{
 }
 fieldset{
 	size: 5px; 
-	border: 2px dashed #333333;
+	border: 2px dashed #444444;
 }
 h1{
 	font-size: 32px;
-	color: #212121	;
+	color: #555555;
 }
 h2{
 	font-size: 20px;
-	color: #212121;
+	color: #555555;
 }
 h3{
 	font-size: 18px;
-	color: #212121;
+	color: #555555;
 }
 h4{
-	color: #212121;
+	color: #555555;
 	font-size: 15px;
 }
 dd{
