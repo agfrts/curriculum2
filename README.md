@@ -1,2 +1,3 @@
-# https://agfrts.github.io/curriculum2/
+# Curriculum2
+https://agfrts.github.io/curriculum2/
 
