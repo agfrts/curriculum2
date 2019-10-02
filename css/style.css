@@ -1,59 +1,54 @@
 *{
 	font-family: Century Gothic;
-	color: #b5b5b5;
+	color: #fcefee;
 }
 #header{
-	margin-left: 0%;
-	margin-right: 0%;
 	text-align:center;
 }
 #dados{
-	margin-left: 20%;
-	margin-right: 20%;
+	width: 60%;
+	position: relative;	
+	margin-left: auto;
+	margin-right: auto;
 	text-align: justify;
 	font-size: 14px;
 }
-#corpo{
+.corpo{
 	margin-left: 5%;
 	text-align: justify;
 	font-size: 14px;
 }
-#curiosidades{
-	margin-left:15%;
-	margin-right: 15%;
-	text-align: justify;
-	font-size: 14px;
-}
 #foto{
-	border-radius: 5%;
+	border-radius: 10%;
 	width: 200px;
 	height: 200px;
 }
-
 iframe{
-	width: 320px;
-	height: 190px;
+	width: 300px;
+	height: 280px;
+	padding: 5px;
+	border-radius: 5%;
 }
 fieldset{
 	size: 5px; 
-	border: 2px dashed #444444;
+	border: 2px dashed #a7584e;
 }
 h1{
 	font-size: 32px;
-	color: #555555;
+	color: #aa5146;
 }
 h2{
 	font-size: 20px;
-	color: #555555;
+	color: #bc5e52;
 }
 h3{
 	font-size: 18px;
-	color: #555555;
+	color: #aa5146;
 }
 h4{
-	color: #555555;
 	font-size: 15px;
+	color: #bc5e52;
 }
-dd{
+li{
 	font-size: 14px;
 }
