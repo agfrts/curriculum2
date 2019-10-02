@@ -24,7 +24,8 @@
 }
 #foto{
 	border-radius: 10%;
-	max-width:100%;
+	width: 200px;
+	height: 200px;
 }
 iframe{
 	width: 300px;
