@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: local(Century Gothic), url(/Century Gothic.ttf), format('truetype');
+}
 *{
 	font-family: "Century Gothic";
 	color: #fcefee;
