@@ -63,7 +63,7 @@ li{
 /* for 980px or less */
 @media screen and (min-width: 980px) {
 	#foto{
-		width:80%;
+		width:120%;
 	}
 }
 
@@ -97,7 +97,7 @@ li{
 		border: 2px dashed #a7584e;
 	}
 	h1{
-		font-size: 30px;
+		font-size: 40px;
 		color: #aa5146;
 	}
 	h2{
@@ -147,7 +147,7 @@ li{
 		border: 2px dashed #a7584e;
 	}
 	h1{
-		font-size: 30px;
+		font-size: 40px;
 		color: #aa5146;
 	}
 	h2{
