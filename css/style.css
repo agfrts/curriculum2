@@ -1,9 +1,5 @@
-@font-face {
-  font-family: "Century Gothic";
-  src: local(Century Gothic), url(/Century Gothic.ttf), format('truetype');
-}
 *{
-	font-family: "Century Gothic";
+	font-family: Century Gothic;
 	color: #fcefee;
 }
 #header{
@@ -55,4 +51,133 @@ h4{
 }
 li{
 	font-size: 14px;
+}
+
+@media (max-width:600px) {
+	/*div{
+	    position: absolute;
+	    right: 0px;
+	    top: 0px;
+	} */
+ 	#dados{
+		width: 100%;
+		position: relative;	
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+		font-size: 14px;
+	}
+	
+}
+/*
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+	background-color: #3b284b;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+	background-color: #4a325e;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+*/
+/* for 980px or less */
+@media screen and (min-width: 980px) {
+	#dados{
+		width: 90%;
+		position: relative;	
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+		font-size: 30px;
+	}
+	.corpo{
+		margin-left: 5%;
+		text-align: justify;
+		font-size: 30px;
+	}
+	#foto{
+		border-radius: 10%;
+		width: 400px;
+		height: 400px;
+	}
+	iframe{
+		width: 300px;
+		height: 280px;
+		padding: 5px;
+		border-radius: 5%;
+	}
+	fieldset{
+		size: 5px; 
+		border: 2px dashed #a7584e;
+	}
+	h1{
+		font-size: 52px;
+		color: #aa5146;
+	}
+	h2{
+		font-size: 45px;
+		color: #bc5e52;
+	}
+	h3{
+		font-size: 42px;
+		color: #aa5146;
+	}
+	h4{
+		font-size: 40px;
+		color: #bc5e52;
+	}
+	li{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	
+
+}
+
+@media screen and (max-width: 700px) {
+	
+
+}
+
+@media screen and (max-width: 480px) {
+	
+
 }
