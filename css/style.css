@@ -15,12 +15,12 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: justify;
-	font-size: 15px;
+	font-size: 14px;
 }
 .corpo{
 	margin-left: 5%;
 	text-align: justify;
-	font-size: 15px;
+	font-size: 14px;
 }
 #foto{
 	border-radius: 10%;
@@ -50,11 +50,11 @@ h3{
 	color: #aa5146;
 }
 h4{
-	font-size: 15px;
+	font-size: 14px;
 	color: #bc5e52;
 }
 li{
-	font-size: 15px;
+	font-size: 14px;
 }
 
 @media (max-width:600px) {
@@ -85,7 +85,7 @@ li{
 		height: 300px;
 	}
 	iframe{
-		width: 500px;
+		width: 400px;
 		height: 400px;
 		padding: 3px;
 		border-radius: 5%;
@@ -103,11 +103,11 @@ li{
 		color: #bc5e52;
 	}
 	h3{
-		font-size: 22px;
+		font-size: 20px;
 		color: #aa5146;
 	}
 	h4{
-		font-size: 20px;
+		font-size: 18px;
 		color: #bc5e52;
 	}
 	li{
@@ -135,7 +135,7 @@ li{
 		height: 300px;
 	}
 	iframe{
-		width: 500px;
+		width: 400px;
 		height: 400px;
 		padding: 3px;
 		border-radius: 5%;
@@ -186,7 +186,7 @@ li{
 		height: 300px;
 	}
 	iframe{
-		width: 500px;
+		width: 400px;
 		height: 400px;
 		padding: 3px;
 		border-radius: 5%;
