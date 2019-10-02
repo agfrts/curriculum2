@@ -1,6 +1,6 @@
 @font-face{
 	font-family: "Century Gothic";
-  	src: local(Century Gothic), url(fonts/Century Gothic.ttf), format('truetype');
+  	src: local(Century Gothic), url(/Century Gothic.ttf), format('truetype');
 }
 *{
 	font-family: Century Gothic;
@@ -73,25 +73,17 @@ li{
 
 @media screen and (max-width: 700px) {
 	#dados{
-		width: 100%;
+		width: 95%;
 		position: relative;	
 		margin-left: auto;
 		margin-right: auto;
 		text-align: justify;
-		font-size: 20px;
-	}
-	#dados{
-		width: 90%;
-		position: relative;	
-		margin-left: auto;
-		margin-right: auto;
-		text-align: justify;
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.corpo{
 		margin-left: 5%;
 		text-align: justify;
-		font-size: 20px;
+		font-size: 16px;
 	}
 	#foto{
 		border-radius: 10%;
@@ -101,7 +93,7 @@ li{
 	iframe{
 		width: 300px;
 		height: 280px;
-		padding: 5px;
+		padding: 1px;
 		border-radius: 5%;
 	}
 	fieldset{
@@ -109,23 +101,23 @@ li{
 		border: 2px dashed #a7584e;
 	}
 	h1{
-		font-size: 42px;
+		font-size: 30px;
 		color: #aa5146;
 	}
 	h2{
-		font-size: 35px;
+		font-size: 25px;
 		color: #bc5e52;
 	}
 	h3{
-		font-size: 32px;
+		font-size: 22px;
 		color: #aa5146;
 	}
 	h4{
-		font-size: 30px;
+		font-size: 20px;
 		color: #bc5e52;
 	}
 	li{
-		font-size: 20px;
+		font-size: 16px;
 	}
 }
 
