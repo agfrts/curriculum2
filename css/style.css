@@ -15,12 +15,12 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: justify;
-	font-size: 14px;
+	font-size: 15px;
 }
 .corpo{
 	margin-left: 5%;
 	text-align: justify;
-	font-size: 14px;
+	font-size: 15px;
 }
 #foto{
 	border-radius: 10%;
@@ -54,7 +54,7 @@ h4{
 	color: #bc5e52;
 }
 li{
-	font-size: 14px;
+	font-size: 15px;
 }
 
 @media (max-width:600px) {
