@@ -24,8 +24,7 @@
 }
 #foto{
 	border-radius: 10%;
-	width: 200px;
-	height: 200px;
+	max-width:100%;
 }
 iframe{
 	width: 300px;
@@ -63,7 +62,9 @@ li{
 
 /* for 980px or less */
 @media screen and (min-width: 980px) {
-	
+	#foto{
+		width:80%;
+	}
 }
 
 @media screen and (max-width: 980px) {
