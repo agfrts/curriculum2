@@ -1,3 +1,7 @@
+@font-face{
+	font-family: "Century Gothic";
+  	src: local(Century Gothic), url(fonts/Century Gothic.ttf), format('truetype');
+}
 *{
 	font-family: Century Gothic;
 	color: #fcefee;
@@ -54,68 +58,10 @@ li{
 }
 
 @media (max-width:600px) {
-	/*div{
-	    position: absolute;
-	    right: 0px;
-	    top: 0px;
-	} */
- 	#dados{
-		width: 100%;
-		position: relative;	
-		margin-left: auto;
-		margin-right: auto;
-		text-align: justify;
-		font-size: 14px;
-	}
+	
 	
 }
-/*
-@media (max-width:600px) {
-  .nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-  }
-  .nav > .nav-btn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-	background-color: #3b284b;
-  }
-  .nav > .nav-btn > label > span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid #eee;
-  }
-  .nav > .nav-links {
-    position: absolute;
-    display: block;
-    width: 100%;
-	background-color: #4a325e;
-    height: 0px;
-    transition: all 0.3s ease-in;
-    overflow-y: hidden;
-    top: 50px;
-    left: 0px;
-  }
-  .nav > .nav-links > a {
-    display: block;
-    width: 100%;
-  }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
-    height: 0px;
-  }
-  .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
-    overflow-y: auto;
-  }
-}
-*/
+
 /* for 980px or less */
 @media screen and (min-width: 980px) {
 	#dados{
