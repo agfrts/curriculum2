@@ -58,12 +58,14 @@ li{
 }
 
 @media (max-width:600px) {
-	
-	
-}
-
-/* for 980px or less */
-@media screen and (min-width: 980px) {
+ 	#dados{
+		width: 100%;
+		position: relative;	
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+		font-size: 14px;
+	}
 	#dados{
 		width: 90%;
 		position: relative;	
@@ -111,6 +113,11 @@ li{
 	li{
 		font-size: 30px;
 	}
+} 
+
+/* for 980px or less */
+@media screen and (min-width: 980px) {
+	
 }
 
 @media screen and (max-width: 980px) {
