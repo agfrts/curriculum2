@@ -3,7 +3,7 @@
   	src: local(Century Gothic), url(/Century Gothic.ttf), format('truetype');
 }
 *{
-	font-family: Century Gothic;
+	font-family: "Century Gothic";
 	color: #fcefee;
 }
 #header{
@@ -183,8 +183,8 @@ li{
 	}
 	#foto{
 		border-radius: 10%;
-		width: 250px;
-		height: 250px;
+		width: 300px;
+		height: 300px;
 	}
 	iframe{
 		width: 300px;
@@ -197,11 +197,11 @@ li{
 		border: 2px dashed #a7584e;
 	}
 	h1{
-		font-size: 30px;
+		font-size: 40px;
 		color: #aa5146;
 	}
 	h2{
-		font-size: 25px;
+		font-size: 30px;
 		color: #bc5e52;
 	}
 	h3{
